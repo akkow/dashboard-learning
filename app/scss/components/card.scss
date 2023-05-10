@@ -58,6 +58,11 @@
 
     }
 
+    &__subtitle {
+        font-size: rem(14);
+        font-weight: 700;
+    }
+
     &__platform {
         display: flex;
         justify-content: center;
@@ -110,7 +115,8 @@
         }
 
         &--small {
-
+            font-size: rem(32);
+            font-weight: 700;
         }
     }
 
